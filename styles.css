@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif, monospace, Arial, Helvetica;
+  background-image: url("images/bg-image.jpg");
+  background-size: contain;
+  color: #2b7cd3;
+}
+header {
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px 2px maroon;
+}
+
+p {
+  color: white;
+  background: #2b7cd3;
+  padding: 10px;
+  border: 2px solid navy;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  margin: 10px 3px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 10px;
+}
+fieldset {
+  outline: none;
+  border: none;
+}
+form {
+  color: #fafafa;
+  background-color: #2b7cd3;
+  padding: 20px;
+  border: 2px solid blue;
+  justify-self: center;
+  width: auto;
+  max-width: 640px;
+  border-radius: 25px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+select {
+  height: 30px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  height: 18px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+  height: 25px;
+  width: 100%;
+  max-width: 320px;
+}
+input[type="submit"],
+textarea {
+  margin: 20px auto;
+  height: 40px;
+  padding: auto;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 240px;
+  margin: auto;
+}

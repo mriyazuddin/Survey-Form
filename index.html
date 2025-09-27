@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Survey Form</h1>
+      <p>Your feedback will shape the future of our services!</p>
+    </header>
+    <main>
+      <form action="">
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="What should we call you?"
+        />
+
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="your-email@domain.com"
+        />
+
+        <label for="age">Age: </label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          min="18"
+          max="100"
+          placeholder="25"
+        />
+
+        <label for="role"
+          >Select the option best describes your current role:
+        </label>
+        <select name="role" id="role">
+          <option value="Junior">Junior</option>
+          <option value="Mid-level">Mid-level</option>
+          <option value="Management">Management</option>
+        </select>
+
+        <label for="features">Select our hosting features you've used:</label>
+        <fieldset>
+          <input type="checkbox" name="features" id="features" />SFTP<br />
+          <input type="checkbox" name="features" id="features" />Code Editor<br />
+          <input type="checkbox" name="features" id="features" />Backup &
+          Restore<br />
+          <input type="checkbox" name="features" id="features" />Plugins<br />
+          <input
+            type="checkbox"
+            name="features"
+            id="features"
+            checked
+          />Themes<br />
+        </fieldset>
+        <label for="recommendation">
+          Would you recommend our hosting services to a friend?</label
+        >
+        <fieldset>
+          <input type="radio" name="recmn" id="recmn" checked />Very likely<br />
+          <input type="radio" name="recmn" id="recmn" />Likely<br />
+          <input type="radio" name="recmn" id="recmn" />Not sure<br />
+          <input type="radio" name="recmn" id="recmn" />Unlikely<br />
+          <input type="radio" name="recmn" id="recmn" />Very unlikely<br />
+        </fieldset>
+        <label for="role-desc"
+          >Please share your thoughts about our services:
+        </label>
+        <textarea
+          name="role-description"
+          id="role-desc"
+          cols="80"
+          rows="10"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
